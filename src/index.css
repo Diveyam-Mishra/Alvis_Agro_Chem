@@ -1,15 +1,15 @@
 /* Reset and base styles */
+/* If you are not using Tailwind CSS, remove these lines. If you are, make sure your build process includes Tailwind/PostCSS. */
+
+@import "tailwindcss";
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-/* Chrome, Edge, Safari */
-body::-webkit-scrollbar {
-  display: none;
-}
 
 body {
   font-family: "Public Sans", "Noto Sans", sans-serif;
