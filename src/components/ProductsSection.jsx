@@ -48,7 +48,7 @@ const ProductCard = ({ product, index }) => {
       >
         {/* Front of card */}
         <div 
-          className="absolute w-full h-full rounded-xl bg-white shadow-lg overflow-hidden border border-gray-200 hover:border-green-300 transition-colors"
+          className="absolute w-full h-full rounded-xl bg-white shadow-lg overflow-x-hidden overflow-y-auto border border-gray-200 hover:border-green-300 transition-colors"
           style={{
             backfaceVisibility: 'hidden'
           }}

@@ -11,17 +11,16 @@ function App() {
       <div className="layout-container flex h-full grow flex-col">
         <Header />
         <HeroSection />
-        <div className="flex flex-1 justify-center">
-          <div className="layout-content-container flex flex-col w-full max-w-7xl flex-1">
-            <ProductsSection />
-            <TestimonialsSection />
-            <ContactSection />
-          </div>
-        </div>
+
+        {/* Moved these sections out so they are scrollable in window */}
+        <ProductsSection />
+        <TestimonialsSection />
+        <ContactSection />
+
         <Footer />
       </div>
     </div>
   );
 }
 
-export default App
+export default App;
